@@ -1,0 +1,12 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Playfair+Display&display=swap');
+
+
+body {
+  @layer base {
+    body {
+      @apply bg-black text-white max-h-screen;
+      font-family: 'Merriweather', serif;
+    }
+  }
+}
